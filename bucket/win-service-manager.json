@@ -1,13 +1,13 @@
 {
-    "version": "1.0.1",
-    "description": "A modern, terminal-based Windows service management tool built with Go and Bubble Tea",
+    "version": "1.1.0",
+    "description": "A lazydocker-style TUI for managing Windows services, built with Go and Bubble Tea",
     "homepage": "https://github.com/rifqiabd/win-service-manager",
     "license": "MIT",
-    "notes": "Run from an elevated terminal to start, stop, or reconfigure services.",
+    "notes": "The app requests administrator privileges through the UAC prompt on startup. Use -no-elevate to browse services without elevation.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rifqiabd/win-service-manager/releases/download/v1.0.1/win-service-manager_1.0.1_windows_amd64.zip",
-            "hash": "86c0a6ba56f873369eda97cdf346cf5b82c52c286032f1a5658adf5d69aa9d51"
+            "url": "https://github.com/rifqiabd/win-service-manager/releases/download/v1.1.0/win-service-manager_1.1.0_windows_amd64.zip",
+            "hash": "0401a8075fb4a9614214c3a4fb49a4c80da1246540ab2856f7691574ccdafcf6"
         }
     },
     "bin": [
