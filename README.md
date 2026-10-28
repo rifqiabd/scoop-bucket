@@ -9,6 +9,13 @@ scoop bucket add rifqiabd https://github.com/rifqiabd/scoop-bucket
 scoop install rifqiabd/win-service-manager
 ```
 
+Run it as `win-service-manager` or the shorter `wsm` shim:
+
+```powershell
+wsm
+wsm -version
+```
+
 ## Available manifests
 
 | Manifest | Description |

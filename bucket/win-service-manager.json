@@ -10,7 +10,13 @@
             "hash": "86c0a6ba56f873369eda97cdf346cf5b82c52c286032f1a5658adf5d69aa9d51"
         }
     },
-    "bin": "win-service-manager.exe",
+    "bin": [
+        "win-service-manager.exe",
+        [
+            "win-service-manager.exe",
+            "wsm"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/rifqiabd/win-service-manager"
     },
